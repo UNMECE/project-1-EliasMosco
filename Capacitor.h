@@ -7,6 +7,7 @@ struct _capacitor
   double C;           // capacitance value
 
   //return voltage, current, according to time.
-  
 };
 typedef struct _capacitor Capacitor;
+ void InitCapacitor( Capacitor &cap, int totalSteps, double c);
+ void FreeCapacitor( Capacitor &cap);
